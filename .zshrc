@@ -67,7 +67,8 @@ plugins=(
   history,
   npm,
   node,
-  zsh-autosuggestions
+  zsh-autosuggestions,
+  redis-cli
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -106,3 +107,5 @@ HISTFILE=~/.zsh_history     #Where to save history to disk
 SAVEHIST=5000               #Number of history entries to save to disk
 #source ~/.bash_profile
 eval $(thefuck --alias)
+
+source ~/.private
