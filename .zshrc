@@ -69,6 +69,8 @@ plugins=(
   node
   zsh-autosuggestions
   redis-cli
+  docker
+  docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
