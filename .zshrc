@@ -119,4 +119,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-alias gcfd='gcd && gcb '
+alias gcfd='gcd && ggpull --rebase && gcb '
